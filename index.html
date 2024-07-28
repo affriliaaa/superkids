@@ -13,13 +13,15 @@
         href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    
 </head>
 <body>
 
     <section class="sec-header">
-        <div class="container">
-            <div class="content">
-                <div class="navbar">
+        <div class="navbar">
+            <div class="container">
+                <div class="content">
                     <img src="images/logo.svg" alt="">
                     <nav>
                         <ul>
@@ -33,13 +35,16 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="hero">
+            </div>
+        </div>
+        <div class="hero">
+            <div class="container">
+                <div class="content">
                     <div class="hero-left">
                         <span class="badge badge-primary">Welcome to Superkids</span>
                         <h1>Be a Super parents for your superkids</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
-                            velit
-                            mollit. Exercitation veniam</p>
+                        velit mollit. Exercitation veniam</p>
                         <button class="btn btn-primary">Enroll My Child</button>
                     </div>
                     <div class="hero-right">
@@ -296,7 +301,7 @@
             </div>
             <div class="content-group">
                 <div class="group">
-                    <p style="background-color: #FF7D56;">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta
+                    <p class="p1" style="background-color: #FF7D56;">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta
                         est convallis lacus blandit pretium sed non enim.</p>
                     <div class="frame">
                         <img src="images/testimonial.svg" alt="">
@@ -307,7 +312,7 @@
                     </div>
                 </div>
                 <div class="group">
-                    <p style="background-color: #6ED2EF;">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta
+                    <p class="p2" style="background-color: #6ED2EF;">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta
                         est convallis lacus blandit pretium sed non enim.</p>
                     <div class="frame">
                         <img src="images/testimonial.svg" alt="">
@@ -318,7 +323,7 @@
                     </div>
                 </div>
                 <div class="group">
-                    <p style="background-color: #FDCF3F;">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta
+                    <p class="p3" style="background-color: #FDCF3F;">Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta
                         estconvallis lacus blandit pretium sed non enim.</p>
                     <div class="frame">
                         <img src="images/testimonial.svg" alt="">
@@ -334,11 +339,13 @@
 
     <section class="sec-banner-enroll">
         <div class="container">
-            <h2>Enroll Your Child Now!
-                <br>Call Us (302) 555-0107 or
-            </h2>
-            <div class="button">
-                <button class="btn btn-danger">Enroll Online</button>
+            <div class="content">
+                <h2>Enroll Your Child Now!
+                    <br>Call Us (302) 555-0107 or
+                </h2>
+                <div class="button">
+                    <button class="btn btn-danger">Enroll Online</button>
+                </div>
             </div>
         </div>
     </section>
@@ -409,21 +416,21 @@
                     </div>
                 </div>
                 <div class="button">
-                    <button class="btn">View More</button>
+                    <button class="btn btn-outline-info">View More</button>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="sec-bottom-navigation">
+    <footer class="sec-bottom-navigation">
         <div class="container">
             <div class="content">
                 <div class="heading">
                     <img src="images/logo-2.svg" alt="">
                     <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                 </div>
-                <div class="home">
-                    <a class="link" href="#">Home</a>
+                <div class="widget">
+                    <h3>Home</h3>
                     <ul>
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Services</a></li>
@@ -432,24 +439,24 @@
                         <li><a href="#">Pricing</a></li>
                     </ul>
                 </div>
-                <div class="services">
-                    <a class="link" href="#">Services</a>
+                <div class="widget">
+                    <h3>Services</h3>
                     <ul>
                         <li><a href="#">Homecare</a></li>
                         <li><a href="#">Kidszone</a></li>
                         <li><a href="#">Kidsplay</a></li>
                     </ul>
                 </div>
-                <div class="about">
-                    <a class="link" href="#">About</a>
+                <div class="widget">
+                    <h3>About</h3>
                     <ul>
                         <li><a href="#">Company</a></li>
                         <li><a href="#">Legal</a></li>
                         <li><a href="#">Terms And Conditions</a></li>
                     </ul>
                 </div>
-                <div class="offers">
-                    <a class="link" href="#">Social Media</a>
+                <div class="widget">
+                    <h3>Social Media</h3>
                     <ul>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">Twitter</a></li>
@@ -460,7 +467,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </footer>
 
 </body>
 </html>

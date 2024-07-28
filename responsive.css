@@ -1,0 +1,189 @@
+/* @media (max-width: 600px) {
+    .badge.badge-info {
+        display: inline-block;
+        text-align: center;
+    }
+} */
+
+/* RESPONSIVE HEADER */
+
+@media (max-width: 600px) {
+    .sec-header {
+        padding: 25px;
+    }
+
+    .sec-header .hero .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-header img {
+        width: 550px;
+    }
+
+}
+
+/* RESPONSIVE BANNER FEATURE */
+
+@media (max-width: 600px) {
+    .sec-feature {
+        padding: 25px;
+    }
+
+    .sec-feature .content {
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+    } 
+
+    .sec-feature .icon-group {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        gap: 30px;
+    }
+
+    .sec-feature h3 {
+        text-align: center;
+    }
+}
+
+/* RESPONSIVE BENEFIT */
+
+@media (max-width: 600px) {
+    .sec-benefits {
+        padding: 25px;
+    }
+
+    .sec-benefits .text-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .sec-benefits .benefit-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-benefits .group {
+        align-self: center;
+    }
+
+    .sec-benefits .text-group h2 {
+        width: 100%;
+    }
+
+    .sec-benefits .text-group p {
+        width: 100%;
+    }
+}
+
+/* RESPONSIVE ABOUT US */
+
+@media (max-width: 600px) {
+    .sec-about-us {
+        padding: 0px 25px;
+    }
+
+    .sec-about-us .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .sec-banner-counter {
+        padding: 93px 105px;
+    }
+
+    .sec-banner-counter .content {
+        display: grid;
+        grid-template-columns: auto auto;   
+        gap: 50px;
+    }
+}
+
+/* RESPONSIVE KNOWLEDGE BASE */
+
+@media (max-width: 600px) {
+    .sec-knowledge-base {
+        padding: 75px 25px;
+    }
+
+    .sec-knowledge-base .content {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* RESPONSIVE MEMBER */
+
+@media (max-width: 600px) {
+    .sec-member {
+        padding: 0px 25px;
+    }
+
+
+    .sec-member .heading {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sec-member .heading h2 {
+        text-align: center;
+    }
+
+    .sec-member .trainer-group {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+/* RESPONSIVE TESTIMONIAL */
+
+@media (max-width: 600px) {
+    .sec-testimonial {
+        padding: 0px 25px;
+    }
+
+    .sec-testimonial .heading h2 {
+        text-align: center;
+    }
+
+    .sec-testimonial .content-group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+/* RESPONSIVE LATEST ARTICLE */
+
+@media (max-width: 600px) {
+    .sec-blog {
+        padding: 0px 25px;
+    }
+
+    .sec-blog .article-group .row-content {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .sec-bottom-navigation {
+        padding: 207px 25px;
+    }
+
+    .sec-bottom-navigation .content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec-bottom-navigation p {
+        width: 100%;
+    }
+}
