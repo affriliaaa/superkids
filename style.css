@@ -662,9 +662,9 @@ h2 {
 }
 
 .sec-blog .article-group .row-content {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     gap: 32px;
     margin-bottom: 32px;
 }
@@ -673,10 +673,12 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 0px;
+    width: 100%;
 }
 
 .sec-blog .article-group .row-content .blog-content img {
-    width: 273px;
+    width: 100%;
     margin-bottom: 16px;
     border-radius: 20px;
 }
